@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  hibernate-filter:
+    build: .
+    container_name: hibernate-filter
+    ports:
+      - "8080:8080"
